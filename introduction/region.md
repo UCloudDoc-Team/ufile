@@ -32,6 +32,7 @@ US3 对象存储提供外网、内网域名两种访问方式：外网域名可�
 | 东京  | jpn-tky.ufileos.com      | internal-jpn-tky.ufileos.com     |
 | 曼谷  | th-bkk.ufileos.com      | internal-th-bkk.ufileos.com     |
 | 英国	| uk-london.ufileos.com | internal-uk-london.ufileos.com |
+| 莫斯科 | rus-mosc.ufileos.com | internal-rus-mosc.ufileos.com |
 
 **注意：**
 
