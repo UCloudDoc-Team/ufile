@@ -399,7 +399,7 @@ us3cli du us3://<桶名字>[/<key>] [--force][--projectid <项目ID>]
 
 ### 使用示例
 
-- 查看bucket1所占空间大小，内容包含各存储类型的存储量以及总存储量（在弹出的提升中选择N，需要使用API密钥且传入参数--projectid）
+- 查看bucket1所占空间大小，内容包含各存储类型的存储量以及总存储量（在弹出的提示中选择N，需要使用API密钥且传入参数--projectid）
 
 ```
 StorageClass    Size   
@@ -409,7 +409,7 @@ ARCHIVE:        0 GB
 Total storage:  1.05 GB
 ```
 
-- 查看bucket1下的各类型存储量以及文件数量(在弹出的提升中选择Y)
+- 查看bucket1下的各类型存储量以及文件数量(在弹出的提示中选择Y)
 
 ```
                 FileCount       FileSize
