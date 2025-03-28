@@ -605,3 +605,56 @@ rclone copy ./test.txt remote:bucket
 rclone delete remote:bucket/test.txt
 ```
 
+## Cyberduck
+
+### 功能说明
+
+Cyberduck是一个跨平台的文件管理器，支持s3协议，适用于macos系统
+
+### 安装和使用
+
+#### 安装步骤
+
+```
+下载地址：https://cyberduck.io/download/
+
+打开软件即可使用
+```
+
+#### 配置
+
+```
+Cyberduck配置目录为：
+~/Library/Group Containers/G69SCX94XU.duck/Library/Application Support/duck/
+在配置目录下创建命名为”default.properties”的文件
+```
+
+#### 配置参考
+
+```
+文件内容为：
+s3.upload.multipart.lookup=false
+s3.upload.multipart.size=8388608
+```
+
+完成后效果如下图所示
+
+![](/images/pic/cyberduck1.png)
+
+#### 使用方法
+
+按照下图所示配置
+
+![](/images/pic/cyberduck2.png)
+
+access_key_id: 参考[Token公钥](https://console.ucloud.cn/ufile/token)/[API公钥](https://console.ucloud.cn/uapi/apikey)
+
+secret_access_key: 参考 [Token私钥](https://console.ucloud.cn/ufile/token)/[API私钥](https://console.ucloud.cn/uapi/apikey)
+
+endpoint： 参考 [s3协议域名](https://docs.ucloud.cn/ufile/s3/s3_introduction)
+
+##### 支持操作说明
+
+支持上传，下载，删除，列表，同步，预签名url等操作。
+
+不支持移动，拷贝，重命名，新建加密库，恢复，归档等。
