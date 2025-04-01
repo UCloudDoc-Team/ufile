@@ -1185,7 +1185,7 @@ us3cli modify us3://<桶名字>/<文件Key> [--storageclass <存储类型>][--mi
 修改test.txt的存储类型为STANDARD标准型
 
 ```
-./us3cli modify us3://bucket/test.txt --storageclass STANDARD
+./us3cli modify us3://bucket/test.txt --storageclass IA
 ```
 
 - mimetype改变
