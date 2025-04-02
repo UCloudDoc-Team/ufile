@@ -108,6 +108,7 @@
     * [数据库备份方案](/ufile/solutions/backup)
     * [数据归档方案](/ufile/solutions/archive)
     * [使用STS临时访问凭证访问US3](/ufile/solutions/using_sts_for_us3)
+    * [归档存储转换方案](/ufile/solutions/class_switch_for_archive)
 * [常见问题](/ufile/faq)
 
 
