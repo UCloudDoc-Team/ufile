@@ -569,6 +569,8 @@ location_constraint = cn-bj
 acl = private
 bucket_acl = private // public/private
 chunk_size = 8M                          //目前只支持8M分片
+no_check_bucket = true
+no_head = true
 ```
 
 access_key_id: 参考[Token公钥](https://console.ucloud.cn/ufile/token)/[API公钥](https://console.ucloud.cn/uapi/apikey)

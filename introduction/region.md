@@ -8,7 +8,7 @@ US3 对象存储提供外网、内网域名两种访问方式：外网域名可�
 
 在您创建存储空间后，您存储空间的访问域名地址格式为：`<存储空间名称>.<域名地址>`。
 
-**公有云下US3各地域访问域名（Endpoint）如下：**
+**公有云下US3协议各地域访问域名（Endpoint）如下：**
 
 | 地域 | 外网域名 | 内网域名 |
 | ---- | -------- | -------- |
@@ -34,10 +34,39 @@ US3 对象存储提供外网、内网域名两种访问方式：外网域名可�
 | 英国	| uk-london.ufileos.com | internal-uk-london.ufileos.com |
 | 莫斯科 | rus-mosc.ufileos.com | internal-rus-mosc.ufileos.com |
 
+
+**公有云下AWS S3协议各地域访问域名（Endpoint）如下：**
+
+| **编号** | **地域** | **外网Endpoint**            | **内网Endpoint**                     |
+| :------- | :------- | :-------------------------- | :----------------------------------- |
+| 1        | 华北一   | s3-cn-bj.ufileos.com        | internal.s3-cn-bj.ufileos.com        |
+| 2        | 华北二   | s3-cn-wlcb.ufileos.com      | internal.s3-cn-wlcb.ufileos.com      |
+| 3        | 上海     | s3-cn-sh2.ufileos.com       | internal.s3-cn-sh2.ufileos.com       |
+| 4        | 广州     | s3-cn-gd.ufileos.com        | internal.s3-cn-gd.ufileos.com        |
+| 5        | 香港     | s3-hk.ufileos.com           | internal.s3-hk.ufileos.com           |
+| 6        | 洛杉矶   | s3-us-ca.ufileos.com        | internal.s3-us-ca.ufileos.com        |
+| 7        | 新加坡   | s3-sg.ufileos.com           | internal.s3-sg.ufileos.com           |
+| 8        | 雅加达   | s3-idn-jakarta.ufileos.com  | internal.s3-idn-jakarta.ufileos.com  |
+| 9        | 台北     | s3-tw-tp.ufileos.com        | internal.s3-tw-tp.ufileos.com        |
+| 10       | 拉各斯   | s3-afr-nigeria.ufileos.com  | internal.s3-afr-nigeria.ufileos.com  |
+| 11       | 圣保罗   | s3-bra-saopaulo.ufileos.com | internal.s3-bra-saopaulo.ufileos.com |
+| 12       | 迪拜     | s3-uae-dubai.ufileos.com    | internal.s3-uae-dubai.ufileos.com    |
+| 13       | 法兰克福 | s3-ge-fra.ufileos.com       | internal.s3-ge-fra.ufileos.com       |
+| 14       | 胡志明市 | s3-vn-sng.ufileos.com       | internal.s3-vn-sng.ufileos.com       |
+| 15       | 华盛顿   | s3-us-ws.ufileos.com        | internal.s3-us-ws.ufileos.com        |
+| 16       | 孟买     | s3-ind-mumbai.ufileos.com   | internal.s3-ind-mumbai.ufileos.com   |
+| 17       | 首尔     | s3-kr-seoul.ufileos.com     | internal.s3-kr-seoul.ufileos.com     |
+| 18       | 东京     | s3-jpn-tky.ufileos.com      | internal.s3-jpn-tky.ufileos.com      |
+| 19       | 曼谷     | s3-th-bkk.ufileos.com       | internal.s3-th-bkk.ufileos.com       |
+| 20       | 伦敦     | s3-uk-london.ufileos.com    | internal.s3-uk-london.ufileos.com    |
+| 21       | 莫斯科   | s3-rus-mosc.ufileos.com     | internal.s3-rus-mosc.ufileos.com     |
+
 **注意：**
 
-**1. 由于存储集群所在地域不同，跨国访问可能会存在响应延迟或失败的情况，海外加速服务功能处于内测阶段，如需使用请联系技术支持。** 
+**1. 由于存储集群所在地域不同，跨国访问可能会存在响应延迟或失败的情况。** 
 
 **2. 兼容支持AWS S3协议的访问域名请参见[AWS S3协议支持说明](/ufile/s3/s3_introduction)。**
+
+**3. US3默认外网域名， 下载场景会存在速度，文件类型的限制； 外网下载场景建议使用自定义域名**
 
 
