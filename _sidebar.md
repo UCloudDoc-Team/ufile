@@ -76,10 +76,6 @@
         * [下载与安装](/ufile/tools/us3distcp/prepare)
         * [快速上手](/ufile/tools/us3distcp/quickaccess)
         * [常见问题](/ufile/tools/us3distcp/questions)
-    * US3ClickHouse 插件（公测）
-        * [工具简介](/ufile/tools/us3clickhouse/introduction)
-        * [下载与配置使用](/ufile/tools/us3clickhouse/prepare)
-        * [性能分析](/ufile/tools/us3clickhouse/testdata)
     * [US3Browser 可视化界面工具（已下线）](/ufile/tools/us3browser)
     * 其他工具
         * [原迁移工具](/ufile/tools/tools/ufile_import)
