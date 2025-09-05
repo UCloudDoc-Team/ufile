@@ -2,6 +2,10 @@
 
 US3SYNC提供“通用部署”和“UHOST镜像启动”两种部署US3SYNC的方式。用户可根据现有资源情况选择“通用部署”或“UHOST镜像启动”US3SYNC服务。通用部署方案如下：
 
+## 软件版本
+
+当前版本：1.10.4
+
 ## 运行环境
 
 - Linux：
@@ -13,6 +17,8 @@ US3SYNC 依赖 telnet，expect，rsync 命令，确保预装这些命令，使�
 ```
 yum install -y telnet expect rsync
 ```
+
+ps: 云主机一般推荐最低硬件配置要求 4C8G
 
 ## 下载并解压
 
