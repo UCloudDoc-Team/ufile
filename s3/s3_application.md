@@ -174,11 +174,11 @@ CentOS 系统下安装依赖软件：
 
 8. export
 
-   PKG_CONFIG_PATH=/usr/lib/[pkgconfig:/usr/lib64/pkgconfig/:/usr/local/lib/pkgconfig](http://pkgconfig/usr/lib64/pkgconfig/:/usr/local/lib/pkgconfig)
+   PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/lib64/pkgconfig/:/usr/local/lib/pkgconfig
 
 9. modprobe fuse #挂载 fuse 内核模块
 
-10. echo "/usr/local/lib" >> /etc/[ld.so](http://ld.so/).conf
+10. echo "/usr/local/lib" >> /etc/ld.so.conf
 
 11. ldconfig #更新动态链接库
 
@@ -236,7 +236,7 @@ multireq_max="8" //当上传的文件大于 8MB 是采用分片上传，目前UF
 
 **示例：**
 
-s3fs s3fs-test /data/vs3fs -o url=[http://internal.s3-cn-bj.ufileos.com](http://internal.s3-cn-bj.ufileos.com/) -o passwd_file=~/.passwd-s3fs -o dbglevel=info -o curldbg,use_path_request_style,allow_other,nomixupload -o retries=1 -o multipart_size="8" -o multireq_max="8" -o parallel_count="32"
+s3fs s3fs-test /data/vs3fs -o url=http://internal.s3-cn-bj.ufileos.com -o passwd_file=~/.passwd-s3fs -o dbglevel=info -o curldbg,use_path_request_style,allow_other,nomixupload -o retries=1 -o multipart_size="8" -o multireq_max="8" -o parallel_count="32"
 
 #### 挂载效果
 

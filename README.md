@@ -32,7 +32,7 @@
     * [令牌管理](/ufile/guide/token)
     * [对象标签](/ufile/guide/object_tagging)
 * 增值服务
-    * [图片处理服务](/ufile/service/pic)
+    * [图片处理服务](/ufile/service/introduction)
     * [解压缩服务](/ufile/service/zip)
     * [文档预览](/ufile/service/doc_preview)
 * [常用工具](/ufile/tools/introduction)

@@ -171,7 +171,7 @@ S3 的 AccessKeyID（或称AccessKey）和 SecretAccessKey（或称SecretKey）�
 
 ## 图片操作支持
 
-参考 [图片处理服务](/ufile/service/pic)
+参考 [图片处理服务](/ufile/service/introduction)
 
 ## 存储类型转换规则
 
