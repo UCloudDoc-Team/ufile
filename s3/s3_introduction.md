@@ -155,6 +155,7 @@ S3 的 AccessKeyID（或称AccessKey）和 SecretAccessKey（或称SecretKey）�
 | 19       | 曼谷     | s3-th-bkk.ufileos.com       | internal.s3-th-bkk.ufileos.com       |
 | 20       | 伦敦     | s3-uk-london.ufileos.com    | internal.s3-uk-london.ufileos.com    |
 | 21       | 莫斯科   | s3-rus-mosc.ufileos.com     | internal.s3-rus-mosc.ufileos.com     |
+| 22       | 贵阳一   | s3-cn-guiyang1.ufileos.com  | internal.s3-cn-guiyang1.ufileos.com  |
 
 注意: *目前华北一，香港，胡志明，首尔，圣保罗，洛杉矶，华盛顿地域已经支持https协议，其他地域可支持路径风格https，后续支持虚拟主机风格https (所有地域内网不支持https)*
 

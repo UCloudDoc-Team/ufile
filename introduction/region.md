@@ -33,7 +33,7 @@ US3 对象存储提供外网、内网域名两种访问方式：外网域名可�
 | 曼谷  | th-bkk.ufileos.com      | internal-th-bkk.ufileos.com     |
 | 英国	| uk-london.ufileos.com | internal-uk-london.ufileos.com |
 | 莫斯科 | rus-mosc.ufileos.com | internal-rus-mosc.ufileos.com |
-
+| 贵阳一 | cn-guiyang1.ufileos.com | internal-cn-guiyang1.ufileos.com |
 
 **公有云下AWS S3协议各地域访问域名（Endpoint）如下：**
 
@@ -60,6 +60,7 @@ US3 对象存储提供外网、内网域名两种访问方式：外网域名可�
 | 19       | 曼谷     | s3-th-bkk.ufileos.com       | internal.s3-th-bkk.ufileos.com       |
 | 20       | 伦敦     | s3-uk-london.ufileos.com    | internal.s3-uk-london.ufileos.com    |
 | 21       | 莫斯科   | s3-rus-mosc.ufileos.com     | internal.s3-rus-mosc.ufileos.com     |
+| 22       | 贵阳一   | s3-cn-guiyang1.ufileos.com  | internal.s3-cn-guiyang1.ufileos.com  |
 
 **注意：**
 

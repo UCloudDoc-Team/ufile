@@ -1342,7 +1342,7 @@ us3cli create-token token-name [--flags]
   -b, --buckets stringArray      token允许操作的桶
   -e, --expire int               token过期时间
   -h, --help                     帮助
-  -o, --operations stringArray   token允许的操作
+  -o, --operations stringArray   token允许的操作[TOKEN_ALLOW_NONE，TOKEN_ALLOW_READ，TOKEN_ALLOW_WRITE，TOKEN_ALLOW_DELETE，TOKEN_ALLOW_LIST，TOKEN_ALLOW_IOP]
       --prefixes stringArray     token允许操作的对象前缀
   -p, --projectid string         token所属的项目id
   -r, --region string            token所在的区域
@@ -1351,10 +1351,19 @@ us3cli create-token token-name [--flags]
 
 ##### 使用示例
 
+- 创建token并指定token所属的项目id
+
 ```
 us3cli create-token test-token --projectid org-xxxxxx
 
 2021-10-13 15:02:37.248 INFO Token created successfully, token-id: ea8e7799-3241-xxxxxxxxxx
+```
+
+- 创建token并指定token允许的操作
+
+```
+ ./us3cli-mac create-token test -o TOKEN_ALLOW_READ  -o TOKEN_ALLOW_WRITE 
+2025-12-15 15:13:01.020 INFO Token created successfully, token-id: a89fbaaa-8793-442d-9579-19498ee59fc1
 ```
 
 ## delete-token
