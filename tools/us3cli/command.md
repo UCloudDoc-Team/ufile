@@ -100,25 +100,25 @@ language: "EN"
 请输入API/Token私钥[当前:]: xxxxxxxxxxxxxxxxxxxxxx
 地区列表：
 No.     RegionName      Region      
-0       华北一		cn-bj       
-1       上海二		cn-sh2      
-2       广州		cn-gd       
+0       华北（北京2）		cn-bj       
+1       华东（上海2）		cn-sh2      
+2       华南（广州）		cn-gd       
 3       香港		hk          
-4       洛杉矶		us-ca       
+4       美国（洛杉矶）		us-ca       
 5       新加坡		sg          
-6       雅加达		idn-jakarta 
-7       台北		tw-tp       
-8       拉各斯		afr-nigeria 
-9       圣保罗		bra-saopaulo
-10      迪拜		uae-dubai   
-11      法兰克福		ge-fra      
-12      胡志明市		vn-sng      
-13      华盛顿		us-ws       
-14      孟买		ind-mumbai  
-15      首尔		kr-seoul
-16      东京		jpn-tky
-17      曼谷		th-bkk
-18      华北二           cn-wlcb
+6       印度尼西亚（雅加达）		idn-jakarta 
+7       台湾（台北）		tw-tp       
+8       尼日利亚（拉各斯）		afr-nigeria 
+9       巴西（圣保罗）		bra-saopaulo
+10      阿联酋（迪拜）		uae-dubai   
+11      德国（法兰克福）		ge-fra      
+12      越南（胡志明）		vn-sng      
+13      美国（华盛顿）		us-ws       
+14      印度（孟买）		ind-mumbai  
+15      韩国（首尔）		kr-seoul
+16      日本（东京）		jpn-tky
+17      泰国（曼谷）		th-bkk
+18      华北（乌兰察布）           cn-wlcb
 19      英国		uk-london
 请输入region编号: 0
 内外网列表：
@@ -233,7 +233,7 @@ us3cli mb us3://<桶名字>  [--acl <权限类型>][--region <桶所在地区>][
       --endpoint <string>    :固定域名，可通过地域和域名页查看,如：cn-bj.ufileos.com
   -h, --help                 :当前命令使用说明
       --projectid <string>   :项目ID，当前bucket属项目ID，默认为Default
-  -r, --region <string>      :桶所在地区，可查看地域信息，默认地区为华北一
+  -r, --region <string>      :桶所在地区，可查看地域信息，默认地区为华北（北京2）
       --secretkey <string>   :用于访问us3的API私钥或Token私钥
 ```
 
@@ -249,27 +249,27 @@ us3cli mb us3://<桶名字>  [--acl <权限类型>][--region <桶所在地区>][
 请输入要创建bucket的权限类型acl(private/public,默认为private):public
 地区列表：
 No.     RegionName      Region      
-0       华北一		cn-bj       
-1       上海二		cn-sh2      
-2       广州		cn-gd       
+0       华北（北京2）		cn-bj       
+1       华东（上海2）		cn-sh2      
+2       华南（广州）		cn-gd       
 3       香港		hk          
-4       洛杉矶		us-ca       
+4       美国（洛杉矶）		us-ca       
 5       新加坡		sg          
-6       雅加达		idn-jakarta 
-7       台北		tw-tp        
-8       拉各斯		afr-nigeria 
-9       圣保罗		bra-saopaulo
-10      迪拜		uae-dubai   
-11      法兰克福		ge-fra      
-12      胡志明市		vn-sng      
-13      华盛顿		us-ws       
-14      孟买		ind-mumbai  
-15      首尔		kr-seoul
-16      东京		jpn-tky
-17      曼谷		th-bkk
-18      华北二           cn-wlcb
+6       印度尼西亚（雅加达）		idn-jakarta 
+7       台湾（台北）		tw-tp        
+8       尼日利亚（拉各斯）		afr-nigeria 
+9       巴西（圣保罗）		bra-saopaulo
+10      阿联酋（迪拜）		uae-dubai   
+11      德国（法兰克福）		ge-fra      
+12      越南（胡志明）		vn-sng      
+13      美国（华盛顿）		us-ws       
+14      印度（孟买）		ind-mumbai  
+15      韩国（首尔）		kr-seoul
+16      日本（东京）		jpn-tky
+17      泰国（曼谷）		th-bkk
+18      华北（乌兰察布）           cn-wlcb
 19      英国		uk-london    
-请输入要创建bucket地区编号或地区代码(默认为华北一:cn-bj):0
+请输入要创建bucket地区编号或地区代码(默认为华北（北京2）:cn-bj):0
 Region: cn-bj
 当前账号下业务组分组信息如下：
 No.     ProjectName     ProjectId 
