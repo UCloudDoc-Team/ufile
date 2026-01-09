@@ -134,30 +134,30 @@ S3 的 AccessKeyID（或称AccessKey）和 SecretAccessKey（或称SecretKey）�
 
 | **编号** | **地域** | **外网Endpoint**            | **内网Endpoint**                     |
 | :------- | :------- | :-------------------------- | :----------------------------------- |
-| 1        | 华北一   | s3-cn-bj.ufileos.com        | internal.s3-cn-bj.ufileos.com        |
-| 2        | 华北二   | s3-cn-wlcb.ufileos.com      | internal.s3-cn-wlcb.ufileos.com      |
+| 1        | 华北（北京2）   | s3-cn-bj.ufileos.com        | internal.s3-cn-bj.ufileos.com        |
+| 2        | 华北（乌兰察布）   | s3-cn-wlcb.ufileos.com      | internal.s3-cn-wlcb.ufileos.com      |
 | 3        | 上海     | s3-cn-sh2.ufileos.com       | internal.s3-cn-sh2.ufileos.com       |
-| 4        | 广州     | s3-cn-gd.ufileos.com        | internal.s3-cn-gd.ufileos.com        |
+| 4        | 华南（广州）     | s3-cn-gd.ufileos.com        | internal.s3-cn-gd.ufileos.com        |
 | 5        | 香港     | s3-hk.ufileos.com           | internal.s3-hk.ufileos.com           |
-| 6        | 洛杉矶   | s3-us-ca.ufileos.com        | internal.s3-us-ca.ufileos.com        |
+| 6        | 美国（洛杉矶）   | s3-us-ca.ufileos.com        | internal.s3-us-ca.ufileos.com        |
 | 7        | 新加坡   | s3-sg.ufileos.com           | internal.s3-sg.ufileos.com           |
-| 8        | 雅加达   | s3-idn-jakarta.ufileos.com  | internal.s3-idn-jakarta.ufileos.com  |
-| 9        | 台北     | s3-tw-tp.ufileos.com        | internal.s3-tw-tp.ufileos.com        |
-| 10       | 拉各斯   | s3-afr-nigeria.ufileos.com  | internal.s3-afr-nigeria.ufileos.com  |
-| 11       | 圣保罗   | s3-bra-saopaulo.ufileos.com | internal.s3-bra-saopaulo.ufileos.com |
-| 12       | 迪拜     | s3-uae-dubai.ufileos.com    | internal.s3-uae-dubai.ufileos.com    |
-| 13       | 法兰克福 | s3-ge-fra.ufileos.com       | internal.s3-ge-fra.ufileos.com       |
-| 14       | 胡志明市 | s3-vn-sng.ufileos.com       | internal.s3-vn-sng.ufileos.com       |
-| 15       | 华盛顿   | s3-us-ws.ufileos.com        | internal.s3-us-ws.ufileos.com        |
-| 16       | 孟买     | s3-ind-mumbai.ufileos.com   | internal.s3-ind-mumbai.ufileos.com   |
-| 17       | 首尔     | s3-kr-seoul.ufileos.com     | internal.s3-kr-seoul.ufileos.com     |
-| 18       | 东京     | s3-jpn-tky.ufileos.com      | internal.s3-jpn-tky.ufileos.com      |
-| 19       | 曼谷     | s3-th-bkk.ufileos.com       | internal.s3-th-bkk.ufileos.com       |
-| 20       | 伦敦     | s3-uk-london.ufileos.com    | internal.s3-uk-london.ufileos.com    |
-| 21       | 莫斯科   | s3-rus-mosc.ufileos.com     | internal.s3-rus-mosc.ufileos.com     |
+| 8        | 印度尼西亚（雅加达）   | s3-idn-jakarta.ufileos.com  | internal.s3-idn-jakarta.ufileos.com  |
+| 9        | 台湾（台北）     | s3-tw-tp.ufileos.com        | internal.s3-tw-tp.ufileos.com        |
+| 10       | 尼日利亚（拉各斯）   | s3-afr-nigeria.ufileos.com  | internal.s3-afr-nigeria.ufileos.com  |
+| 11       | 巴西（圣保罗）   | s3-bra-saopaulo.ufileos.com | internal.s3-bra-saopaulo.ufileos.com |
+| 12       | 阿联酋（迪拜）     | s3-uae-dubai.ufileos.com    | internal.s3-uae-dubai.ufileos.com    |
+| 13       | 德国（法兰克福） | s3-ge-fra.ufileos.com       | internal.s3-ge-fra.ufileos.com       |
+| 14       | 越南（胡志明） | s3-vn-sng.ufileos.com       | internal.s3-vn-sng.ufileos.com       |
+| 15       | 美国（华盛顿）   | s3-us-ws.ufileos.com        | internal.s3-us-ws.ufileos.com        |
+| 16       | 印度（孟买）     | s3-ind-mumbai.ufileos.com   | internal.s3-ind-mumbai.ufileos.com   |
+| 17       | 韩国（首尔）     | s3-kr-seoul.ufileos.com     | internal.s3-kr-seoul.ufileos.com     |
+| 18       | 日本（东京）     | s3-jpn-tky.ufileos.com      | internal.s3-jpn-tky.ufileos.com      |
+| 19       | 泰国（曼谷）     | s3-th-bkk.ufileos.com       | internal.s3-th-bkk.ufileos.com       |
+| 20       | 英国（伦敦）     | s3-uk-london.ufileos.com    | internal.s3-uk-london.ufileos.com    |
+| 21       | 俄罗斯（莫斯科）   | s3-rus-mosc.ufileos.com     | internal.s3-rus-mosc.ufileos.com     |
 | 22       | 贵阳一   | s3-cn-guiyang1.ufileos.com  | internal.s3-cn-guiyang1.ufileos.com  |
 
-注意: *目前华北一，香港，胡志明，首尔，圣保罗，洛杉矶，华盛顿地域已经支持https协议，其他地域可支持路径风格https，后续支持虚拟主机风格https (所有地域内网不支持https)*
+注意: *目前华北（北京2），香港，胡志明，韩国（首尔），巴西（圣保罗），美国（洛杉矶），美国（华盛顿）地域已经支持https协议，其他地域可支持路径风格https，后续支持虚拟主机风格https (所有地域内网不支持https)*
 
 ## 回调扩展功能支持
 

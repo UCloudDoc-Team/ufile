@@ -62,24 +62,24 @@ us3cli config  [--ls][--su <配置名>][--rm <配置名>][--cat <配置名>][--e
 地区列表：
 No.     RegionName      Region      
 0       北京		cn-bj       
-1       上海二		cn-sh2      
-2       广州		cn-gd       
+1       华东（上海2）		cn-sh2      
+2       华南（广州）		cn-gd       
 3       香港		hk          
-4       洛杉矶		us-ca       
+4       美国（洛杉矶）		us-ca       
 5       新加坡		sg          
-6       雅加达		idn-jakarta 
-7       台北		tw-tp       
-8       拉各斯		afr-nigeria 
-9       圣保罗		bra-saopaulo
-10      迪拜		uae-dubai   
-11      法兰克福		ge-fra      
-12      胡志明市		vn-sng      
-13      华盛顿		us-ws       
-14      孟买		ind-mumbai  
-15      首尔		kr-seoul
-16      东京		jpn-tky
-17      曼谷		th-bkk
-18      华北二           cn-wlcb
+6       印度尼西亚（雅加达）		idn-jakarta 
+7       台湾（台北）		tw-tp       
+8       尼日利亚（拉各斯）		afr-nigeria 
+9       巴西（圣保罗）		bra-saopaulo
+10      阿联酋（迪拜）		uae-dubai   
+11      德国（法兰克福）		ge-fra      
+12      越南（胡志明）		vn-sng      
+13      美国（华盛顿）		us-ws       
+14      印度（孟买）		ind-mumbai  
+15      韩国（首尔）		kr-seoul
+16      日本（东京）		jpn-tky
+17      泰国（曼谷）		th-bkk
+18      华北（乌兰察布）           cn-wlcb
 19      英国		uk-london  
 请输入region编号: 0
 内外网列表：
@@ -168,24 +168,24 @@ us3cli mb us3://<bucketname>
 地区列表：
 No.     RegionName      Region      
 0       北京		cn-bj       
-1       上海二		cn-sh2      
-2       广州		cn-gd       
+1       华东（上海2）		cn-sh2      
+2       华南（广州）		cn-gd       
 3       香港		hk          
-4       洛杉矶		us-ca       
+4       美国（洛杉矶）		us-ca       
 5       新加坡		sg          
-6       雅加达		idn-jakarta 
-7       台北		tw-tp       
-8       拉各斯		afr-nigeria 
-9       圣保罗		bra-saopaulo
-10      迪拜		uae-dubai   
-11      法兰克福		ge-fra      
-12      胡志明市		vn-sng      
-13      华盛顿		us-ws       
-14      孟买		ind-mumbai  
-15      首尔		kr-seoul
-16      东京		jpn-tky
-17      曼谷		th-bkk
-18      华北二           cn-wlcb
+6       印度尼西亚（雅加达）		idn-jakarta 
+7       台湾（台北）		tw-tp       
+8       尼日利亚（拉各斯）		afr-nigeria 
+9       巴西（圣保罗）		bra-saopaulo
+10      阿联酋（迪拜）		uae-dubai   
+11      德国（法兰克福）		ge-fra      
+12      越南（胡志明）		vn-sng      
+13      美国（华盛顿）		us-ws       
+14      印度（孟买）		ind-mumbai  
+15      韩国（首尔）		kr-seoul
+16      日本（东京）		jpn-tky
+17      泰国（曼谷）		th-bkk
+18      华北（乌兰察布）           cn-wlcb
 19      英国		uk-london     
 请输入要创建bucket地区编号或地区代码(默认为北京:cn-bj):0
 Region: cn-bj
