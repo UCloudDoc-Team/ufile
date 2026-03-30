@@ -120,6 +120,9 @@ No.     RegionName      Region
 17      泰国（曼谷）		th-bkk
 18      华北（乌兰察布）           cn-wlcb
 19      英国		uk-london
+20      俄罗斯（莫斯科）           rus-mosc
+21      贵阳           cn-guiyang1
+23      巴基斯坦           pk-khi 
 请输入region编号: 0
 内外网列表：
 No.     Network
@@ -269,6 +272,9 @@ No.     RegionName      Region
 17      泰国（曼谷）		th-bkk
 18      华北（乌兰察布）           cn-wlcb
 19      英国		uk-london    
+20      俄罗斯（莫斯科）           rus-mosc
+21      贵阳           cn-guiyang1
+23      巴基斯坦           pk-khi 
 请输入要创建bucket地区编号或地区代码(默认为华北（北京2）:cn-bj):0
 Region: cn-bj
 当前账号下业务组分组信息如下：
