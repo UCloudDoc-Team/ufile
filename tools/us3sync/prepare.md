@@ -23,7 +23,7 @@ ps: 云主机一般推荐最低硬件配置要求 4C8G
 ## 下载并解压
 
 ```
-wget -O US3SYNC.tgz "https://ufile-release.cn-bj.ufileos.com/US3SYNC/v1.10.5/US3SYNC.tgz"
+wget -O US3SYNC.tgz "https://ufile-release.cn-bj.ufileos.com/US3SYNC/US3SYNC_v1.11.6.tgz"
 tar xzf US3SYNC.tgz
 cd ./US3SYNC
 ```
