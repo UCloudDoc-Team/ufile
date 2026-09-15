@@ -4,7 +4,9 @@
 
 Ⅰ.Windows
 
-- [us3cli-windows.exe](https://us3-release.cn-bj.ufileos.com/us3cli/us3cli-windows.exe)
+- Windows 64位：[us3cli-windows64.exe](https://us3-release.cn-bj.ufileos.com/us3cli/us3cli-windows64.exe)
+
+- Windows 32位：[us3cli-windows.exe](https://us3-release.cn-bj.ufileos.com/us3cli/us3cli-windows.exe)
 
 Ⅱ.Linux
 
@@ -44,21 +46,21 @@ chmod +x us3cli-linux64
 
 ### Windows环境
 
-1.下载工具至本地。
+1.下载工具至本地。64位 Windows 系统建议下载 `us3cli-windows64.exe`，仅在32位 Windows 系统上使用 `us3cli-windows.exe`。
 
-2.以管理员身份打开cmd面板，切换到us3cli-windows.exe文件所在路径。
+2.以管理员身份打开cmd面板，切换到us3cli文件所在路径。
 
 3.执行config命令创建配置。
 
 ```
-us3cli-windows.exe config
+us3cli-windows64.exe config
 ```
 
 注意事项：
 
 1.请使用管理员身份打开cmd命令行。
 
-2.下载后请不要直接点击执行us3cli-windows.exe文件，该工具需要使用命令行工具打开执行。
+2.下载后请不要直接点击执行us3cli文件，该工具需要使用命令行工具打开执行。
 
 3.如果点击下载无反应，请右键单击复制链接地址，输入到浏览器地址输入框打开。
 
@@ -77,5 +79,4 @@ chmod +x us3cli-mac
 ```
 ./us3cli-mac config
 ```
-
 
