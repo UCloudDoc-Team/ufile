@@ -4,7 +4,7 @@ US3SYNC提供“通用部署”和“UHOST镜像启动”两种部署US3SYNC的�
 
 ## 软件版本
 
-当前版本：1.10.4
+当前版本：2.0.0
 
 ## 运行环境
 
@@ -23,7 +23,7 @@ ps: 云主机一般推荐最低硬件配置要求 4C8G
 ## 下载并解压
 
 ```
-wget -O US3SYNC.tgz "https://ufile-release.cn-bj.ufileos.com/US3SYNC/US3SYNC_v1.11.6.tgz"
+wget -O US3SYNC.tgz "https://ufile-release.cn-bj.ufileos.com/US3SYNC/US3SYNC_v2.0.0.tgz"
 tar xzf US3SYNC.tgz
 cd ./US3SYNC
 ```
