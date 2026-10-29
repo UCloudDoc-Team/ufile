@@ -23,12 +23,12 @@ AIGC 视频生成模型直接出 1080P 或 4K，算力开销和生成耗时都�
 - 源视频已上传到 UFile 存储空间；输出路径也在 UFile 存储空间内。
 - **源存储空间与输出存储空间必须在同一地域**。任务记录按地域存储，地域由源存储空间自动确定。
 - 调用账号对源存储空间和输出存储空间都有访问权限，且两者归属当前公司与项目。
-- 目前只支持华北(乌兰察布)地域。
+- 目前只支持华北(乌兰察布)地域。属于灰度功能，有需求联系技术支持开通。
 
 
 ## 3. 选择转码模板
 
-转码模板由 `Template` 参数指定，当前可用的模板共 4 个，均属于转码服务商 `vis`（微帧）：
+转码模板由 `Template` 参数指定，当前可用的模板共 4 个：
 
 | Template | 输出分辨率 |
 |---|---|
@@ -36,8 +36,6 @@ AIGC 视频生成模型直接出 1080P 或 4K，算力开销和生成耗时都�
 | `VIS-1080P-UMedia` | 1080P |
 | `VIS-2K-UMedia` | 2K |
 | `VIS-4K-UMedia` | 4K |
-
-`Vendor`（转码服务商）参数可以不传，默认即为 `vis`。
 
 按 AIGC 成片的源分辨率选目标档位：
 
@@ -104,7 +102,6 @@ Content-Type: application/json
     "SourceObject": "aigc/720p-draft.mp4",
     "OutputBucket": "my-bucket",
     "OutputObject": "aigc/1080p-final.mp4",
-    "Vendor": "vis",
     "Template": "VIS-1080P-UMedia",
     "ProjectId": "org-xxxxxx"
 }
@@ -131,7 +128,6 @@ Content-Type: application/json
     "BucketName": "my-bucket",
     "SourceObject": "aigc/720p-draft.mp4",
     "OutputObject": "aigc/4k-final.mp4",
-    "Vendor": "vis",
     "Template": "VIS-4K-UMedia"
 }
 ```
@@ -147,7 +143,6 @@ Content-Type: application/json
 | `Region` | string | 是 | — | 任务所在地域，与源存储空间地域一致，如 `cn-wlcb` |
 | `TaskId` | string | 否 | — | 任务 ID，不传时返回任务列表 |
 | `BucketName` | string | 否 | — | 按源存储空间过滤 |
-| `Vendor` | string | 否 | — | 按转码服务商过滤 |
 | `Status` | string | 否 | — | 按任务状态过滤，取值见下 |
 | `Offset` | int | 否 | `0` | 分页偏移量 |
 | `Limit` | int | 否 | `20` | 单页条数，1–1000 |
@@ -199,7 +194,6 @@ Content-Type: application/json
             "SourceObject": "aigc/720p-draft.mp4",
             "OutputBucket": "my-bucket",
             "OutputObject": "aigc/1080p-final.mp4",
-            "Vendor": "vis",
             "Template": "VIS-1080P-UMedia",
             "Status": "success",
             "CTime": 1792468090,
@@ -326,7 +320,6 @@ AIGC 成片超分后，`Score` 应上升，`Blur` 明显下降。如果 `OverSha
 | 15031 | 渠道不支持 | 检查 `channel` 取值 |
 | 15117 | 转码模板不支持 | 确认 `Template` 为第 3 节列出的 4 个模板之一 |
 | 15118 | 转码任务不存在 | 检查 `TaskId`，确认任务属于当前公司与项目 |
-| 15119 | 转码服务商不支持 | `Vendor` 仅支持 `vis`，建议不传该参数 |
 | 15120 | 评测任务不存在 | 检查评测 `TaskId` |
 | 15121 | 源文件不是支持的视频格式 | 检查 `SourceObject` 后缀，见第 9 节 |
 
