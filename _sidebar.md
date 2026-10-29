@@ -37,6 +37,7 @@
        * [图片处理参数](/ufile/service/image_params)
        * [图片样式](/ufile/service/image_style)
        * [原图保护](/ufile/service/image_protect)
+    * [视频处理服务](/ufile/service/video)
     * [解压缩服务](/ufile/service/zip)
     * [文档预览](/ufile/service/doc_preview)
     * [内容审核服务](/ufile/service/moderation)
